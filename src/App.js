@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./components/Header";
 import MainPage from "./pages/Mainpage/MainPage";
 import Footer from "./components/Footer";
+import MyPage from "./pages/MyPage/MyPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/mypage" element={<MyPage />} />
         </Routes>
       </div>
 
